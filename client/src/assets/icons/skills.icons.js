@@ -13,6 +13,8 @@ import instagram from './instagram.svg'
 import facebook from './facebook.svg'
 
 
+import dropDown from './down-arrow.png'
+
 export const skillDisplay = [ 
     {
         id : 1,
@@ -92,3 +94,5 @@ export const socialMediaIcons = [
     }
 
 ]
+
+export const DropDownIcon = dropDown;

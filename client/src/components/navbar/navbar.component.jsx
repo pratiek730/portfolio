@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from 'react-router-dom';
 import './navbar.styles.css'
+import { DropDownIcon } from '../../assets/icons/skills.icons';
 
 function Navbar() {
     return ( <>
@@ -27,6 +28,12 @@ function Navbar() {
                 <NavLink to="/blog" className="navbar-elements" >
                     Blog
                 </NavLink> */}
+                <div className="dropdown">
+                    <NavLink className="navbar-elements">Projects <img src={DropDownIcon} className='drop-icon' /></NavLink>
+                    <div className="dropdown-content">
+                        <NavLink className="navbar-elements" to='http://projectapi.pratiekparashar.com/' target='_blank'>ApiConnect</NavLink>
+                    </div>
+                </div>
             </div>
         </div>
         <Outlet />
