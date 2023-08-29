@@ -1,0 +1,67 @@
+.about-me-page {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    padding: auto;
+}
+
+.about-left-pane {
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: justify;
+    font-size: 2vw;
+    padding: 0 0 20px 50px;
+}
+
+.about-left-head {
+    font-family: 'Oswald';
+    font-size: 1.7em;
+    width: 100%;
+}
+
+.about-left-sub {
+    font-size: .7em;
+    width: 100%;
+}
+
+.about-blog-button {
+    width: fit-content;
+   margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.about-left-data {
+    margin-top: 30px;
+    font-size: .5em;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+    margin: 20px 0;
+}
+
+.about-icon {
+
+    height: 40px;
+}
+
+
+
+.about-right-pane {
+    height: 70vh;
+    width: fit-content;
+    display: inline;
+}
+
+.about-image {
+    height: 100%;
+    image-rendering: auto;
+    border-image: none;
+}

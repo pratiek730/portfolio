@@ -1,0 +1,11 @@
+{
+  "name": "pratiek_portfolio",
+  "version": "1.0.0",
+  "description": "Pratiek's Personal Portfolio Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pratiek Parashar",
+  "license": "ISC"
+}
