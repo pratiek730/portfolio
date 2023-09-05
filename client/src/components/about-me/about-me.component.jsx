@@ -27,7 +27,7 @@ function AboutMe() {
                     {
                         socialMediaIcons.map((icon) => (
                             <div key={icon.id} >
-                                <a href={icon.link} target='_blank'>
+                                <a href={icon.link} >
                                 <img className='about-icon' src={icon.image} alt={icon.name} />
                                 </a>
                             </div>

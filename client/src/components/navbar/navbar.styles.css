@@ -1,9 +1,9 @@
 .navbar-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-end;
     align-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px calc(20px + 1vw);
     font-size: calc(12px + 1vw);
     
@@ -22,6 +22,7 @@
 .navbar-logo {
     font-size: calc(2.5em + 2vw);
     flex-shrink: 2;
+    text-decoration: none;
     font-family: Tangerine;
     color: black;
 }
@@ -53,6 +54,7 @@
 @media only screen and (min-width: 768px) {
     .navbar-container {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-content: center;
         flex-wrap: wrap;

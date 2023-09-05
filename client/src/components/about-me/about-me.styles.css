@@ -1,67 +1,126 @@
 .about-me-page {
     display: flex;
-    height: 80vh;
+    flex-direction: column;
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+}
+
+.about-right-pane {
     width: 100%;
-    padding: 20px;
-    justify-content: center;
-    padding: auto;
+    display: inline;
+}
+
+.about-image {
+    width: 100%;
+    image-rendering: none;
+    border-image: none;
 }
 
 .about-left-pane {
-    width: 60%;
-    height: 70vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: left;
     text-align: justify;
-    font-size: 2vw;
-    padding: 0 0 20px 50px;
+    font-size: 2vh;
 }
 
 .about-left-head {
-    font-family: 'Oswald';
-    font-size: 1.7em;
+    font-family: "Oswald";
+    font-size: 3em;
     width: 100%;
 }
 
 .about-left-sub {
-    font-size: .7em;
+    font-size: 1.5em;
     width: 100%;
 }
 
 .about-blog-button {
     width: fit-content;
-   margin-top: 20px;
+    margin-top: 20px;
     padding: 10px 20px;
 }
 
 .about-left-data {
     margin-top: 30px;
-    font-size: .5em;
+    font-size: .7em;
 }
 
 .social-media-links {
     display: flex;
     justify-content: space-between;
-    width: 20vw;
-    margin: 20px 0;
+    width: 80%;
+    margin: 20px auto;
 }
 
 .about-icon {
-
     height: 40px;
 }
+@media only screen and (min-width: 769px) {
+    .about-me-page {
+        display: flex;
+        flex-direction: row;
+        height: 80vh;
+        width: 100%;
+        padding: 20px;
+        justify-content: center;
+    }
 
+    .about-left-pane {
+        width: 60%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        text-align: justify;
+        font-size: 2vw;
+        padding: 0 0 20px 50px;
+    }
 
+    .about-left-head {
+        font-family: "Oswald";
+        font-size: 1.7em;
+        width: 100%;
+    }
 
-.about-right-pane {
-    height: 70vh;
-    width: fit-content;
-    display: inline;
-}
+    .about-left-sub {
+        font-size: 0.7em;
+        width: 100%;
+    }
 
-.about-image {
-    height: 100%;
-    image-rendering: auto;
-    border-image: none;
+    .about-blog-button {
+        width: fit-content;
+        margin-top: 20px;
+        padding: 10px 20px;
+    }
+
+    .about-left-data {
+        margin-top: 30px;
+        font-size: 0.5em;
+    }
+
+    .social-media-links {
+        display: flex;
+        justify-content: space-between;
+        width: 20vw;
+        margin: 20px 0;
+    }
+
+    .about-icon {
+        height: 40px;
+    }
+
+    .about-right-pane {
+        width: auto;
+        height: 80vh;
+        display: inline;
+    }
+
+    .about-image {
+        height: 100%;
+        image-rendering: auto;
+        border-image: none;
+    }
 }

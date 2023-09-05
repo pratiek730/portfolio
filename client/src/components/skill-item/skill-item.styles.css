@@ -1,15 +1,8 @@
 .skill-item-container {
-    width: 80%;
+    width: 100%;
     padding: 40px;
     transition: .5s;
     font-size: calc(10px + .4vw);
-    cursor: pointer;
-}
-
-.skill-item-container:hover {
-    border-radius: 10px;
-    background-color:#c1f4f6;
-    transition: .5s;
 }
 
 .skill-item-icon {
@@ -23,6 +16,36 @@
 }
 
 .skill-item-description {
-    font-size: .7em;
+    font-size: .9em;
 }
 
+@media only screen and (min-width: 768px) {
+
+    .skill-item-container {
+        width: 80%;
+        padding: 40px;
+        transition: .5s;
+        font-size: calc(10px + .4vw);
+        cursor: auto;
+    }
+    
+    .skill-item-container:hover {
+        border-radius: 10px;
+        background-color:#c1f4f6;
+        transition: .5s;
+    }
+    
+    .skill-item-icon {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .skill-item-title {
+        font-size: 1em;
+        
+    }
+    
+    .skill-item-description {
+        font-size: .7em;
+    }
+}

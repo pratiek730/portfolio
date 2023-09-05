@@ -1,7 +1,7 @@
 .intro-container {
     box-sizing: border-box;
-    height: 50vh;
-    width: 100%;
+    height: 20vh;
+    width: 100vw;
     overflow: auto;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgb(0, 0, 0,.5)),url('../../assets/images/code-820275_1280.jpg');
 }
@@ -17,14 +17,46 @@
 }
 
 .intro-text-head {
-    font-size: 1.7em;
+    font-size: 2em;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
 
 .intro-text-sub {
-    font-size: .7em;
+    font-size: 1em;
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black;
 }
 
+
+@media only screen and (min-width: 768px) {
+    .intro-container {
+        box-sizing: border-box;
+        height: 60vh;
+        width: 100vw;
+        overflow: auto;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgb(0, 0, 0,.5)),url('../../assets/images/code-820275_1280.jpg');
+    }
+    
+    .intro-textbox {
+        width: fit-content;
+        height: fit-content;
+        margin : 10% 0 0 25%;
+        padding-top: 0;
+        font-size: 2vw;
+        color: white;
+        font-family: 'Oswald';
+    }
+    
+    .intro-text-head {
+        font-size: 1.7em;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+    
+    .intro-text-sub {
+        font-size: .7em;
+        -webkit-text-stroke-width: .5px;
+        -webkit-text-stroke-color: black;
+    }
+}

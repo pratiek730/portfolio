@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { skillDisplay } from "../../assets/icons/skills.icons";
 import SkillItem from "../skill-item/skill-item.component";
 

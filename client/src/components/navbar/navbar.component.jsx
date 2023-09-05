@@ -29,9 +29,9 @@ function Navbar() {
                     Blog
                 </NavLink> */}
                 <div className="dropdown">
-                    <NavLink className="navbar-elements">Projects <img src={DropDownIcon} className='drop-icon' /></NavLink>
+                    <NavLink className="navbar-elements">Projects <img alt='dropdown' src={DropDownIcon} className='drop-icon' /></NavLink>
                     <div className="dropdown-content">
-                        <NavLink className="navbar-elements" to='http://projectapi.pratiekparashar.com/' target='_blank'>ApiConnect</NavLink>
+                        <NavLink className="navbar-elements" to='http://projectapi.pratiekparashar.com/' >ApiConnect</NavLink>
                     </div>
                 </div>
             </div>
