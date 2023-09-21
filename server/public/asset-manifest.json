@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ddcb2b5d.css",
+    "main.js": "/static/js/main.0c52e970.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Pratiek Image.jpg": "/static/media/Pratiek Image.ac9f3e85889fe13d62b9.jpg",
+    "static/media/code-820275_1280.jpg": "/static/media/code-820275_1280.e1dc60f6987460ba5d08.jpg",
+    "static/media/BlockChain.png": "/static/media/BlockChain.60da381abc7f3ec8c2fd.png",
+    "static/media/AI Model.png": "/static/media/AI Model.0c4e92006c197ca7e772.png",
+    "static/media/server.png": "/static/media/server.2f33d76982c50afafd1e.png",
+    "static/media/data-analysis.png": "/static/media/data-analysis.b3d7c39bbebdec2ed514.png",
+    "static/media/cloudServer.png": "/static/media/cloudServer.531123aa6acfffe81f05.png",
+    "static/media/ux.png": "/static/media/ux.ffa3e0dd754dc923e50b.png",
+    "static/media/git.png": "/static/media/git.63b94516b0c8926a967f.png",
+    "static/media/github.svg": "/static/media/github.6d4f8d6e9335a6ad1b70714b46fcc88d.svg",
+    "static/media/instagram.svg": "/static/media/instagram.849150f40cd137617202962a2e728c4d.svg",
+    "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.757885027fecebeb343266fa5ae768cd.svg",
+    "static/media/facebook.svg": "/static/media/facebook.8a16e81e934d69b823501bd40008dc66.svg",
+    "main.ddcb2b5d.css.map": "/static/css/main.ddcb2b5d.css.map",
+    "main.0c52e970.js.map": "/static/js/main.0c52e970.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddcb2b5d.css",
+    "static/js/main.0c52e970.js"
+  ]
+}
